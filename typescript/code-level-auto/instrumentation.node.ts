@@ -11,7 +11,7 @@ import { SEMRESATTRS_SERVICE_NAME } from '@opentelemetry/semantic-conventions'
 // diag.setLogger(new DiagConsoleLogger(), DiagLogLevel.DEBUG);
 
 const exporterOptions = {
-  url: 'https://ingest.[data-region].signoz.cloud:443/v1/traces', // use your own data region or use http://localhost:4318/v1/traces for self-hosted
+  url: 'https://ingest.<REGION>.signoz.cloud:443/v1/traces', // use your own data region or use http://localhost:4318/v1/traces for self-hosted
   headers: { 'signoz-access-token': 'your-signoz-ingestion-key' }, // Use if you are using SigNoz Cloud
 }
 
