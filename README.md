@@ -14,8 +14,6 @@ pnpm dev
 bun dev
 ```
 
-Check `instrumentation.node.ts` to update opentelemetry instrumentation configs
-
 Instrumentation Docs: [NextJs OpenTelemetry Instrumentation](https://signoz.io/docs/instrumentation/nextjs/)
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to interact with application.
